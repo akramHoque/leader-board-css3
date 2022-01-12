@@ -5,6 +5,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    
 }
 main{
     display: flex;
@@ -39,9 +40,8 @@ top players styles
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap:30px; 
-    
+} 
     /* grid-template-columns: repeat(1fr, 1fr, 1fr); */
-}
 .player{
     display: flex;
     align-items: center;
@@ -54,7 +54,11 @@ top players styles
     margin: 16px;
     font-size: 18px;
 }
-/* top blogs styles */
+
+/*-------------------
+top blogs styles
+--------------------- */
+
 .blogs{
     display: grid;grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 26px;
@@ -98,8 +102,6 @@ top players styles
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
 }
 .fa-star{
     font-size: 12px;
@@ -121,7 +123,7 @@ top players styles
 }
 
 /*--------------------
- media queries 
+ Media Queries 
  -----------------------*/
 /* -------------------
 Mobile Devices
@@ -141,10 +143,10 @@ Mobile Devices
     
 }
 
-
-/* --------------
+/*-------------------
 Tablet Devices 
-------------------*/
+---------------------*/
+
 @media only screen and (min-width: 688px) and (max-width: 992px){
     .container{
         width: 100%;
